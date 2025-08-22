@@ -1,4 +1,4 @@
-# 🏹 Mahabharata Index - Interactive Timeline
+# 🏹 महाभारत
 
 A beautifully crafted, responsive web application showcasing the complete Mahabharata epic through an interactive timeline interface. Built with vanilla HTML, CSS, and JavaScript for optimal performance and accessibility.
 
