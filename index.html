@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahabharata Timeline</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="timeline-container">
+        <div class="header">
+            <h1 id="main-title">🏹 Mahabharata Index</h1>
+            <p id="subtitle">The Greatest Epic of Ancient India - Complete Mahabharata Granth Index</p>
+
+            <div class="language-toggle">
+                <button class="lang-btn active" data-lang="english" onclick="changeLanguage('english')">English</button>
+                <button class="lang-btn" data-lang="hindi" onclick="changeLanguage('hindi')">हिंदी</button>
+                <button class="lang-btn" data-lang="sanskrit" onclick="changeLanguage('sanskrit')">संस्कृत</button>
+            </div>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-line"></div>
+
+            <div class="timeline-event left" onclick="toggleDetails(this)">
+                <div class="event-marker divine"></div>
+                <div class="event-card divine">
+                    <div class="event-title" data-english="Birth of the Kuru Dynasty" data-hindi="कुरु वंश की उत्पत्ति"
+                        data-sanskrit="कुरुवंशस्य उत्पत्तिः">Birth of the Kuru Dynasty</div>
+                    <div class="event-category divine" data-english="Divine Origins" data-hindi="दिव्य उत्पत्ति"
+                        data-sanskrit="दिव्य उत्पत्तिः">Divine Origins</div>
+                    <div class="event-summary"
+                        data-english="King Shantanu marries Ganga and later Satyavati, establishing the lineage that would lead to the great war."
+                        data-hindi="राजा शांतनु गंगा से और बाद में सत्यवती से विवाह करते हैं, जिससे उस वंश की स्थापना होती है जो महान युद्ध का कारण बनेगा।"
+                        data-sanskrit="राजा शान्तनुः गङ्गायाः सह तथा पश्चात् सत्यवत्याः सह विवाहं करोति, येन वंशस्य स्थापना भवति या महायुद्धस्य कारणं भविष्यति।">
+                        King Shantanu marries Ganga and later Satyavati, establishing the lineage that would lead to the
+                        great war.</div>
+                    <div class="button-group">
+                        <button class="expand-btn" data-english="Learn More ▼" data-hindi="और पढ़ें ▼"
+                            data-sanskrit="अधिकं जानीहि ▼">Learn More ▼</button>
+                        <button class="read-chapter-btn" onclick="readChapter('adi-parva-1')"
+                            data-english="📖 Read Chapter" data-hindi="📖 अध्याय पढ़ें"
+                            data-sanskrit="📖 अध्यायं पठत">📖 Read Chapter</button>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-details-content">
+                            <div data-english="The story begins with King Shantanu's marriage to the river goddess Ganga, who gives birth to Bhishma (originally Devavrata). Later, Shantanu falls in love with Satyavati, a fisherwoman. To secure this marriage, Bhishma takes a vow of celibacy and renounces his claim to the throne, earning the name 'Bhishma' (one who takes a terrible vow)."
+                                data-hindi="कहानी राजा शांतनु के नदी देवी गंगा से विवाह से शुरू होती है, जो भीष्म (मूल रूप से देवव्रत) को जन्म देती है। बाद में, शांतनु को एक मछुआरे की बेटी सत्यवती से प्रेम हो जाता है। इस विवाह को सुनिश्चित करने के लिए, भीष्म ब्रह्मचर्य की प्रतिज्ञा लेते हैं और सिंहासन पर अपने दावे को त्याग देते हैं, जिससे उन्हें 'भीष्म' (भयानक प्रतिज्ञा लेने वाला) नाम मिलता है।"
+                                data-sanskrit="कथा राजा शान्तनोः नदीदेव्या गङ्गायाः सह विवाहेन आरभते, या भीष्मं (मूलतः देवव्रतम्) जनयति। पश्चात्, शान्तनुः मत्स्यजीविन्याः कन्यायाः सत्यवत्याः प्रति प्रेम करोति। एतस्य विवाहस्य निश्चयार्थं, भीष्मः ब्रह्मचर्यस्य प्रतिज्ञां गृह्णाति तथा सिंहासने स्वस्य अधिकारं त्यजति, येन सः 'भीष्म' (भयानकं प्रतिज्ञां गृह्णातीति) नाम प्राप्नोति।">
+                                The story begins with King Shantanu's marriage to the river goddess Ganga, who gives
+                                birth to Bhishma (originally Devavrata). Later, Shantanu falls in love with Satyavati, a
+                                fisherwoman. To secure this marriage, Bhishma takes a vow of celibacy and renounces his
+                                claim to the throne, earning the name "Bhishma" (one who takes a terrible vow).</div>
+                            <div class="characters">
+                                <h4 data-english="Key Characters:" data-hindi="मुख्य पात्र:"
+                                    data-sanskrit="मुख्याः पात्राः:">Key Characters:</h4>
+                                <p><strong data-english="Bhishma:" data-hindi="भीष्म:"
+                                        data-sanskrit="भीष्मः:">Bhishma:</strong> <span
+                                        data-english="The grand patriarch who becomes the pillar of the Kuru dynasty"
+                                        data-hindi="महान पितामह जो कुरु वंश के स्तंभ बनते हैं"
+                                        data-sanskrit="महान् पितामहः यः कुरुवंशस्य स्तम्भः भवति">The grand patriarch who
+                                        becomes the pillar of the Kuru dynasty</span><br>
+                                    <strong data-english="Shantanu:" data-hindi="शांतनु:"
+                                        data-sanskrit="शान्तनुः:">Shantanu:</strong> <span
+                                        data-english="King of Hastinapura" data-hindi="हस्तिनापुर के राजा"
+                                        data-sanskrit="हस्तिनापुरस्य राजा">King of Hastinapura</span><br>
+                                    <strong data-english="Satyavati:" data-hindi="सत्यवती:"
+                                        data-sanskrit="सत्यवती:">Satyavati:</strong> <span
+                                        data-english="Mother of Vyasa and grandmother of Dhritarashtra and Pandu"
+                                        data-hindi="व्यास की माता और धृतराष्ट्र तथा पांडु की दादी"
+                                        data-sanskrit="व्यासस्य माता तथा धृतराष्ट्रस्य पाण्डोश्च पितामही">Mother of
+                                        Vyasa and grandmother of Dhritarashtra and Pandu</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-event right" onclick="toggleDetails(this)">
+                <div class="event-marker divine"></div>
+                <div class="event-card divine">
+                    <div class="event-title" data-english="Birth of Dhritarashtra and Pandu"
+                        data-hindi="धृतराष्ट्र और पांडु का जन्म" data-sanskrit="धृतराष्ट्रस्य पाण्डोश्च जन्म">Birth of
+                        Dhritarashtra and Pandu</div>
+                    <div class="event-category divine" data-english="Royal Birth" data-hindi="राजकीय जन्म"
+                        data-sanskrit="राजकीय जन्म">Royal Birth</div>
+                    <div class="event-summary"
+                        data-english="Sage Vyasa fathers the next generation of Kuru princes through Niyoga, setting the stage for future conflict."
+                        data-hindi="महर्षि व्यास नियोग के द्वारा कुरु राजकुमारों की अगली पीढ़ी को जन्म देते हैं, जो भविष्य के संघर्ष की नींव रखता है।"
+                        data-sanskrit="महर्षिः व्यासः नियोगेन कुरुराजकुमाराणां अगले पीढ़ी जनयति, यत् भविष्यस्य संघर्षस्य आधारं रचयति।">
+                        Sage Vyasa fathers the next generation of Kuru princes through Niyoga, setting the stage for
+                        future conflict.</div>
+                    <div class="button-group">
+                        <button class="expand-btn" data-english="Learn More ▼" data-hindi="और पढ़ें ▼"
+                            data-sanskrit="अधिकं जानीहि ▼">Learn More ▼</button>
+                        <button class="read-chapter-btn" onclick="readChapter('adi-parva-2')"
+                            data-english="📖 Read Chapter" data-hindi="📖 अध्याय पढ़ें"
+                            data-sanskrit="📖 अध्यायं पठत">📖 Read Chapter</button>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-details-content">
+                            <div data-english="When Satyavati's sons die without heirs, she calls upon her son Vyasa (born before her marriage) to father children with the widowed queens. Ambika gives birth to Dhritarashtra (born blind), and Ambalika gives birth to Pandu (born pale). A maid also bears Vidura, who becomes the wise counselor."
+                                data-hindi="जब सत्यवती के पुत्र बिना वंशज के मर जाते हैं, तो वह अपने पुत्र व्यास (विवाह से पूर्व जन्मे) को विधवा रानियों से संतान उत्पन्न करने के लिए बुलाती है। अंबिका धृतराष्ट्र (अंधे जन्मे) को जन्म देती है, और अंबालिका पांडु (पीले रंग के जन्मे) को जन्म देती है। एक दासी भी विदुर को जन्म देती है, जो बुद्धिमान सलाहकार बनता है।"
+                                data-sanskrit="यदा सत्यवत्याः पुत्राः वंशजैः विना म्रियन्ते, तदा सा स्वपुत्रं व्यासं (विवाहात् पूर्वं जातम्) विधवा राज्ञीभिः सह संतानोत्पादनार्थं आह्वयति। अम्बिका धृतराष्ट्रं (अन्धं जातम्) जनयति, अम्बालिका च पाण्डुं (पीतवर्णं जातम्) जनयति। एका दासी अपि विदुरं जनयति, यः बुद्धिमान् मन्त्री भवति।">
+                                When Satyavati's sons die without heirs, she calls upon her son Vyasa (born before her
+                                marriage) to father children with the widowed queens. Ambika gives birth to
+                                Dhritarashtra (born blind), and Ambalika gives birth to Pandu (born pale). A maid also
+                                bears Vidura, who becomes the wise counselor.</div>
+                            <div class="characters">
+                                <h4 data-english="Key Characters:" data-hindi="मुख्य पात्र:"
+                                    data-sanskrit="मुख्याः पात्राः:">Key Characters:</h4>
+                                <p><strong data-english="Dhritarashtra:" data-hindi="धृतराष्ट्र:"
+                                        data-sanskrit="धृतराष्ट्रः:">Dhritarashtra:</strong> <span
+                                        data-english="Born blind, father of the Kauravas"
+                                        data-hindi="अंधे जन्मे, कौरवों के पिता"
+                                        data-sanskrit="अन्धः जातः, कौरवाणां पिता">Born blind, father of the
+                                        Kauravas</span><br>
+                                    <strong data-english="Pandu:" data-hindi="पांडु:"
+                                        data-sanskrit="पाण्डुः:">Pandu:</strong> <span
+                                        data-english="Father of the Pandavas, cursed to die if he touches his wives"
+                                        data-hindi="पांडवों के पिता, श्रापित कि पत्नियों को स्पर्श करने पर मृत्यु"
+                                        data-sanskrit="पाण्डवानां पिता, शापितः यत् पत्नीस्पर्शे मरणम्">Father of the
+                                        Pandavas, cursed to die if he touches his wives</span><br>
+                                    <strong data-english="Vidura:" data-hindi="विदुर:"
+                                        data-sanskrit="विदुरः:">Vidura:</strong> <span
+                                        data-english="The wise half-brother and counselor"
+                                        data-hindi="बुद्धिमान सौतेला भाई और सलाहकार"
+                                        data-sanskrit="बुद्धिमान् सौतेयभ्राता मन्त्री च">The wise half-brother and
+                                        counselor</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-event left" onclick="toggleDetails(this)">
+                <div class="event-marker pandava"></div>
+                <div class="event-card pandava">
+                    <div class="event-title" data-english="Birth of the Pandavas" data-hindi="पांडवों का जन्म"
+                        data-sanskrit="पाण्डवानां जन्म">Birth of the Pandavas</div>
+                    <div class="event-category pandava" data-english="Pandava Origins" data-hindi="पांडव उत्पत्ति"
+                        data-sanskrit="पाण्डव उत्पत्तिः">Pandava Origins</div>
+                    <div class="event-summary"
+                        data-english="The five Pandava brothers are born to Kunti and Madri through divine intervention, each blessed by different gods."
+                        data-hindi="पांच पांडव भाई कुंती और माद्री से दिव्य हस्तक्षेप के द्वारा जन्म लेते हैं, प्रत्येक अलग देवताओं द्वारा आशीर्वादित।"
+                        data-sanskrit="पञ्च पाण्डवभ्रातरः कुन्त्याः माद्र्याश्च दिव्यहस्तक्षेपेण जायन्ते, प्रत्येकः भिन्नदेवताभिः आशीर्वादितः।">
+                        The five Pandava brothers are born to Kunti and Madri through divine intervention, each blessed
+                        by different gods.</div>
+                    <div class="button-group">
+                        <button class="expand-btn" data-english="Learn More ▼" data-hindi="और पढ़ें ▼"
+                            data-sanskrit="अधिकं जानीहि ▼">Learn More ▼</button>
+                        <button class="read-chapter-btn" onclick="readChapter('adi-parva-4')"
+                            data-english="📖 Read Chapter" data-hindi="📖 अध्याय पढ़ें"
+                            data-sanskrit="📖 अध्यायं पठत">📖 Read Chapter</button>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-details-content">
+                            <div data-english="Due to Pandu's curse, Kunti uses a boon to invoke gods and bear children. Yudhishthira (son of Dharma), Bhima (son of Vayu), and Arjuna (son of Indra) are born to Kunti. She shares the mantra with Madri, who bears the twins Nakula and Sahadeva (sons of the Ashwini Kumaras). Pandu dies when he attempts to be intimate with Madri, and she immolates herself."
+                                data-hindi="पांडु के श्राप के कारण, कुंती वरदान का उपयोग करके देवताओं का आह्वान करती है और संतान प्राप्त करती है। युधिष्ठिर (धर्म के पुत्र), भीम (वायु के पुत्र), और अर्जुन (इंद्र के पुत्र) कुंती से जन्म लेते हैं। वह माद्री के साथ मंत्र साझा करती है, जो जुड़वां नकुल और सहदेव (अश्विनी कुमारों के पुत्र) को जन्म देती है। पांडु की मृत्यु तब होती है जब वह माद्री के साथ अंतरंग होने का प्रयास करता है, और वह सती हो जाती है।"
+                                data-sanskrit="पाण्डोः शापकारणात्, कुन्ती वरदानस्य उपयोगेन देवतानाम् आह्वानं कृत्वा संतानं प्राप्नोति। युधिष्ठिरः (धर्मस्य पुत्रः), भीमः (वायोः पुत्रः), अर्जुनश्च (इन्द्रस्य पुत्रः) कुन्त्याः जायन्ते। सा माद्र्या सह मन्त्रं साझा करोति, या यमौ नकुलसहदेवौ (अश्विनीकुमारयोः पुत्रौ) जनयति। पाण्डुः तदा म्रियते यदा सः माद्र्या सह अन्तरङ्गो भवितुं प्रयतते, सा च सती भवति।">
+                                Due to Pandu's curse, Kunti uses a boon to invoke gods and bear children. Yudhishthira
+                                (son of Dharma), Bhima (son of Vayu), and Arjuna (son of Indra) are born to Kunti. She
+                                shares the mantra with Madri, who bears the twins Nakula and Sahadeva (sons of the
+                                Ashwini Kumaras). Pandu dies when he attempts to be intimate with Madri, and she
+                                immolates herself.</div>
+                            <div class="characters">
+                                <h4 data-english="The Five Pandavas:" data-hindi="पांच पांडव:"
+                                    data-sanskrit="पञ्च पाण्डवाः:">The Five Pandavas:</h4>
+                                <p><strong data-english="Yudhishthira:" data-hindi="युधिष्ठिर:"
+                                        data-sanskrit="युधिष्ठिरः:">Yudhishthira:</strong> <span
+                                        data-english="Eldest, righteous, son of Dharma"
+                                        data-hindi="सबसे बड़े, धर्मात्मा, धर्म के पुत्र"
+                                        data-sanskrit="ज्येष्ठः, धर्मात्मा, धर्मस्य पुत्रः">Eldest, righteous, son of
+                                        Dharma</span><br>
+                                    <strong data-english="Bhima:" data-hindi="भीम:"
+                                        data-sanskrit="भीमः:">Bhima:</strong> <span
+                                        data-english="Strongest, son of Vayu" data-hindi="सबसे शक्तिशाली, वायु के पुत्र"
+                                        data-sanskrit="बलवत्तमः, वायोः पुत्रः">Strongest, son of Vayu</span><br>
+                                    <strong data-english="Arjuna:" data-hindi="अर्जुन:"
+                                        data-sanskrit="अर्जुनः:">Arjuna:</strong> <span
+                                        data-english="Greatest archer, son of Indra"
+                                        data-hindi="महानतम धनुर्धर, इंद्र के पुत्र"
+                                        data-sanskrit="महत्तमः धनुर्धरः, इन्द्रस्य पुत्रः">Greatest archer, son of
+                                        Indra</span><br>
+                                    <strong data-english="Nakula & Sahadeva:" data-hindi="नकुल और सहदेव:"
+                                        data-sanskrit="नकुलः सहदेवश्च:">Nakula & Sahadeva:</strong> <span
+                                        data-english="Twins, sons of Ashwini Kumaras"
+                                        data-hindi="जुड़वां, अश्विनी कुमारों के पुत्र"
+                                        data-sanskrit="यमौ, अश्विनीकुमारयोः पुत्रौ">Twins, sons of Ashwini
+                                        Kumaras</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-event right" onclick="toggleDetails(this)">
+                <div class="event-marker kaurava"></div>
+                <div class="event-card kaurava">
+                    <div class="event-title">Birth of the Kauravas</div>
+                    <div class="event-category kaurava">Kaurava Origins</div>
+                    <div class="event-summary">Gandhari gives birth to 100 sons and one daughter after a prolonged
+                        pregnancy, with Duryodhana as the eldest.</div>
+                    <div class="button-group">
+                        <button class="expand-btn">Learn More ▼</button>
+                        <button class="read-chapter-btn" onclick="readChapter('vana-parva')">📖 Read Chapter</button>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-details-content">
+                            Gandhari, wife of the blind Dhritarashtra, blindfolds herself for life. After two years of
+                            pregnancy, she gives birth to a mass of flesh. Sage Vyasa divides it into 101 pieces, which
+                            develop into 100 sons and one daughter (Dushala). Duryodhana, the eldest, is born on the
+                            same day as Bhima, but slightly after, making Yudhishthira the rightful heir.
+                            <div class="characters">
+                                <h4>Key Kauravas:</h4>
+                                <p><strong>Duryodhana:</strong> Eldest Kaurava, primary antagonist<br>
+                                    <strong>Dushasana:</strong> Duryodhana's brother and supporter<br>
+                                    <strong>Shakuni:</strong> Gandhari's brother, master manipulator<br>
+                                    <strong>Karna:</strong> Adopted son, greatest warrior
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-event left" onclick="toggleDetails(this)">
+                <div class="event-marker pandava"></div>
+                <div class="event-card pandava">
+                    <div class="event-title">Education and Training</div>
+                    <div class="event-category pandava">Learning Phase</div>
+                    <div class="event-summary">The Pandavas and Kauravas receive education and military training from
+                        Guru Dronacharya, revealing their individual talents.</div>
+                    <div class="button-group">
+                        <button class="expand-btn">Learn More ▼</button>
+                        <button class="read-chapter-btn" onclick="readChapter('vana-parva')">📖 Read Chapter</button>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-details-content">
+                            Both sets of cousins are trained by Dronacharya in warfare and statecraft. Arjuna emerges as
+                            the most skilled archer, earning Drona's special attention. The rivalry between the cousins
+                            intensifies during training. Drona demands the thumb of Ekalavya, a tribal prince who had
+                            surpassed Arjuna in archery through self-learning, to maintain his promise to make Arjuna
+                            the greatest archer.
+                            <div class="characters">
+                                <h4>Key Figures:</h4>
+                                <p><strong>Dronacharya:</strong> Royal guru and master of warfare<br>
+                                    <strong>Ekalavya:</strong> Tribal prince, self-taught archer<br>
+                                    <strong>Kripacharya:</strong> Another teacher of the princes
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-event right" onclick="toggleDetails(this)">
+                <div class="event-marker pandava"></div>
+                <div class="event-card pandava">
+                    <div class="event-title">Draupadi's Swayamvara</div>
+                    <div class="event-category pandava">Divine Marriage</div>
+                    <div class="event-summary">Arjuna wins Draupadi's hand in marriage, but due to Kunti's words, she
+                        becomes the common wife of all five Pandavas.</div>
+                    <div class="button-group">
+                        <button class="expand-btn">Learn More ▼</button>
+                        <button class="read-chapter-btn" onclick="readChapter('vana-parva')">📖 Read Chapter</button>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-details-content">
+                            At Draupadi's swayamvara, Arjuna (disguised as a Brahmin) successfully strings the bow and
+                            hits the target. When the brothers return home and tell Kunti they have brought something,
+                            she says "share it among yourselves" without looking. To honor their mother's words and
+                            maintain harmony, Draupadi marries all five brothers, becoming Panchali.
+                            <div class="characters">
+                                <h4>Key Characters:</h4>
+                                <p><strong>Draupadi:</strong> Princess of Panchala, born from fire<br>
+                                    <strong>Drupada:</strong> King of Panchala, Draupadi's father<br>
+                                    <strong>Dhrishtadyumna:</strong> Draupadi's brother, born to kill Drona
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-event left" onclick="toggleDetails(this)">
+                <div class="event-marker kaurava"></div>
+                <div class="event-card kaurava">
+                    <div class="event-title">The Game of Dice</div>
+                    <div class="event-category kaurava">The Great Betrayal</div>
+                    <div class="event-summary">Yudhishthira loses everything in a rigged dice game, leading to
+                        Draupadi's humiliation and the Pandavas' exile.</div>
+                    <div class="button-group">
+                        <button class="expand-btn">Learn More ▼</button>
+                        <button class="read-chapter-btn" onclick="readChapter('vana-parva')">📖 Read Chapter</button>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-details-content">
+                            Shakuni, using loaded dice, defeats Yudhishthira in a game where he stakes and loses his
+                            kingdom, his brothers, himself, and finally Draupadi. Dushasana attempts to disrobe Draupadi
+                            in the court, but Krishna miraculously provides her with endless cloth. Draupadi vows not to
+                            tie her hair until it's washed with Dushasana's blood. The Pandavas are exiled for 13 years.
+                            <div class="characters">
+                                <h4>Key Moments:</h4>
+                                <p><strong>Shakuni's Deception:</strong> Uses loaded dice to ensure Kaurava victory<br>
+                                    <strong>Draupadi's Humiliation:</strong> The turning point that makes war
+                                    inevitable<br>
+                                    <strong>Krishna's Intervention:</strong> Saves Draupadi's honor
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-event right" onclick="toggleDetails(this)">
+                <div class="event-marker pandava"></div>
+                <div class="event-card pandava">
+                    <div class="event-title">Exile and Incognito Year</div>
+                    <div class="event-category pandava">Years of Trial</div>
+                    <div class="event-summary">The Pandavas spend 12 years in forest exile and 1 year incognito, gaining
+                        allies and divine weapons.</div>
+                    <div class="button-group">
+                        <button class="expand-btn">Learn More ▼</button>
+                        <button class="read-chapter-btn" onclick="readChapter('vana-parva')">📖 Read Chapter</button>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-details-content">
+                            During their 12-year forest exile, the Pandavas gain divine weapons, meet sages, and
+                            strengthen their resolve. In the 13th year, they live incognito in King Virata's court -
+                            Yudhishthira as a courtier, Bhima as a cook, Arjuna as a dance teacher (cursed to be a
+                            eunuch for a year), Nakula and Sahadeva as horse and cattle keepers, and Draupadi as Queen
+                            Sudeshna's maid.
+                            <div class="characters">
+                                <h4>Incognito Identities:</h4>
+                                <p><strong>Yudhishthira:</strong> Kanka, the courtier<br>
+                                    <strong>Bhima:</strong> Ballava, the cook<br>
+                                    <strong>Arjuna:</strong> Brihannala, the dance teacher<br>
+                                    <strong>Draupadi:</strong> Sairandhri, the maid
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-event left" onclick="toggleDetails(this)">
+                <div class="event-marker divine"></div>
+                <div class="event-card divine">
+                    <div class="event-title">Krishna's Peace Mission</div>
+                    <div class="event-category divine">Last Attempt</div>
+                    <div class="event-summary">Krishna attempts to broker peace between the cousins, but Duryodhana
+                        refuses to give even five villages to the Pandavas.</div>
+                    <div class="button-group">
+                        <button class="expand-btn">Learn More ▼</button>
+                        <button class="read-chapter-btn" onclick="readChapter('vana-parva')">📖 Read Chapter</button>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-details-content">
+                            After the Pandavas complete their exile, Krishna goes to Hastinapura as a peace envoy. He
+                            asks for just five villages for the five brothers, but Duryodhana refuses, declaring he
+                            won't give even a needle-point of land without war. Krishna reveals his Vishvarupa (cosmic
+                            form) in the Kaurava court, but only a few can see it. War becomes inevitable.
+                            <div class="characters">
+                                <h4>Key Moments:</h4>
+                                <p><strong>Krishna's Diplomacy:</strong> Final attempt to avoid war<br>
+                                    <strong>Duryodhana's Refusal:</strong> "Not even a needle-point of land"<br>
+                                    <strong>Vishvarupa Darshan:</strong> Krishna's divine form revealed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-event right" onclick="toggleDetails(this)">
+                <div class="event-marker war"></div>
+                <div class="event-card war">
+                    <div class="event-title">The Bhagavad Gita</div>
+                    <div class="event-category war">Divine Teaching</div>
+                    <div class="event-summary">On the battlefield of Kurukshetra, Krishna delivers the Bhagavad Gita to
+                        a hesitant Arjuna before the war begins.</div>
+                    <div class="button-group">
+                        <button class="expand-btn">Learn More ▼</button>
+                        <button class="read-chapter-btn" onclick="readChapter('vana-parva')">📖 Read Chapter</button>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-details-content">
+                            As the armies face each other at Kurukshetra, Arjuna is overcome with doubt about fighting
+                            his own family. Krishna, as his charioteer, delivers the profound teachings of the Bhagavad
+                            Gita, explaining duty (dharma), the nature of the soul, and the paths to liberation. This
+                            philosophical discourse becomes one of Hinduism's most important texts.
+                            <div class="characters">
+                                <h4>Core Teachings:</h4>
+                                <p><strong>Dharma:</strong> Righteous duty must be performed<br>
+                                    <strong>Karma Yoga:</strong> Action without attachment to results<br>
+                                    <strong>Bhakti:</strong> Devotion to the divine<br>
+                                    <strong>Soul's Immortality:</strong> The eternal nature of the soul
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-event left" onclick="toggleDetails(this)">
+                <div class="event-marker war"></div>
+                <div class="event-card war">
+                    <div class="event-title">The 18-Day War</div>
+                    <div class="event-category war">Kurukshetra War</div>
+                    <div class="event-summary">The great war of Kurukshetra rages for 18 days, resulting in massive
+                        destruction and the victory of the Pandavas.</div>
+                    <div class="button-group">
+                        <button class="expand-btn">Learn More ▼</button>
+                        <button class="read-chapter-btn" onclick="readChapter('vana-parva')">📖 Read Chapter</button>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-details-content">
+                            The war sees the death of almost all warriors. Key events include: Bhishma's fall on Day 10,
+                            Dronacharya's death on Day 15 (through Dhrishtadyumna after being told his son Ashwatthama
+                            is dead), Karna's death on Day 17 by Arjuna, and finally Duryodhana's defeat by Bhima on Day
+                            18. The war ends with only a handful of survivors on each side.
+                            <div class="characters">
+                                <h4>Major Deaths:</h4>
+                                <p><strong>Day 10:</strong> Bhishma falls on a bed of arrows<br>
+                                    <strong>Day 15:</strong> Dronacharya killed by Dhrishtadyumna<br>
+                                    <strong>Day 17:</strong> Karna killed by Arjuna<br>
+                                    <strong>Day 18:</strong> Duryodhana defeated by Bhima
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-event right" onclick="toggleDetails(this)">
+                <div class="event-marker pandava"></div>
+                <div class="event-card pandava">
+                    <div class="event-title">Yudhishthira's Reign and Final Journey</div>
+                    <div class="event-category pandava">The End</div>
+                    <div class="event-summary">After ruling justly for many years, the Pandavas renounce the world and
+                        begin their final journey to heaven.</div>
+                    <div class="button-group">
+                        <button class="expand-btn">Learn More ▼</button>
+                        <button class="read-chapter-btn" onclick="readChapter('vana-parva')">📖 Read Chapter</button>
+                    </div>
+                    <div class="event-details">
+                        <div class="event-details-content">
+                            Yudhishthira rules Hastinapura for 36 years. After Krishna's departure from the world, the
+                            Pandavas decide to renounce everything and journey toward heaven. One by one, Draupadi and
+                            four Pandavas fall during the journey, leaving only Yudhishthira and a dog (who is actually
+                            Dharma in disguise). Yudhishthira reaches heaven in his mortal body, the only one to do so.
+                            <div class="characters">
+                                <h4>Final Journey:</h4>
+                                <p><strong>Order of Departure:</strong> Draupadi, Sahadeva, Nakula, Arjuna, Bhima<br>
+                                    <strong>Yudhishthira's Test:</strong> Refuses to abandon the dog<br>
+                                    <strong>Divine Revelation:</strong> The dog is Dharma himself<br>
+                                    <strong>Ultimate Reward:</strong> Reaches heaven in mortal form
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color pandava"></div>
+                <span data-english="Pandava Events" data-hindi="पांडव घटनाएं" data-sanskrit="पाण्डव घटनाः">Pandava
+                    Events</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color kaurava"></div>
+                <span data-english="Kaurava Events" data-hindi="कौरव घटनाएं" data-sanskrit="कौरव घटनाः">Kaurava
+                    Events</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color divine"></div>
+                <span data-english="Divine Interventions" data-hindi="दिव्य हस्तक्षेप"
+                    data-sanskrit="दिव्य हस्तक्षेपाः">Divine Interventions</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color war"></div>
+                <span data-english="War Events" data-hindi="युद्ध घटनाएं" data-sanskrit="युद्ध घटनाः">War Events</span>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <div class="parva-overview">
+                <h3 data-english="Complete Mahabharata Structure" data-hindi="संपूर्ण महाभारत संरचना"
+                    data-sanskrit="संपूर्ण महाभारत संरचना">Complete Mahabharata Structure</h3>
+                <div class="parva-grid">
+                    <div class="parva-card">
+                        <div class="parva-number">1</div>
+                        <div class="parva-name" data-english="Adi Parva" data-hindi="आदि पर्व" data-sanskrit="आदिपर्व">
+                            Adi Parva</div>
+                        <div class="parva-chapters" data-english="236 Chapters" data-hindi="236 अध्याय"
+                            data-sanskrit="२३६ अध्यायाः">236 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">2</div>
+                        <div class="parva-name" data-english="Sabha Parva" data-hindi="सभा पर्व"
+                            data-sanskrit="सभापर्व">Sabha Parva</div>
+                        <div class="parva-chapters" data-english="81 Chapters" data-hindi="81 अध्याय"
+                            data-sanskrit="८१ अध्यायाः">81 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">3</div>
+                        <div class="parva-name" data-english="Vana Parva" data-hindi="वन पर्व" data-sanskrit="वनपर्व">
+                            Vana Parva</div>
+                        <div class="parva-chapters" data-english="324 Chapters" data-hindi="324 अध्याय"
+                            data-sanskrit="३२४ अध्यायाः">324 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">4</div>
+                        <div class="parva-name" data-english="Virata Parva" data-hindi="विराट पर्व"
+                            data-sanskrit="विराटपर्व">Virata Parva</div>
+                        <div class="parva-chapters" data-english="72 Chapters" data-hindi="72 अध्याय"
+                            data-sanskrit="७२ अध्यायाः">72 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">5</div>
+                        <div class="parva-name" data-english="Udyoga Parva" data-hindi="उद्योग पर्व"
+                            data-sanskrit="उद्योगपर्व">Udyoga Parva</div>
+                        <div class="parva-chapters" data-english="197 Chapters" data-hindi="197 अध्याय"
+                            data-sanskrit="१९७ अध्यायाः">197 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">6</div>
+                        <div class="parva-name" data-english="Bhishma Parva" data-hindi="भीष्म पर्व"
+                            data-sanskrit="भीष्मपर्व">Bhishma Parva</div>
+                        <div class="parva-chapters" data-english="117 Chapters" data-hindi="117 अध्याय"
+                            data-sanskrit="११७ अध्यायाः">117 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">7</div>
+                        <div class="parva-name" data-english="Drona Parva" data-hindi="द्रोण पर्व"
+                            data-sanskrit="द्रोणपर्व">Drona Parva</div>
+                        <div class="parva-chapters" data-english="203 Chapters" data-hindi="203 अध्याय"
+                            data-sanskrit="२०३ अध्यायाः">203 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">8</div>
+                        <div class="parva-name" data-english="Karna Parva" data-hindi="कर्ण पर्व"
+                            data-sanskrit="कर्णपर्व">Karna Parva</div>
+                        <div class="parva-chapters" data-english="96 Chapters" data-hindi="96 अध्याय"
+                            data-sanskrit="९६ अध्यायाः">96 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">9</div>
+                        <div class="parva-name" data-english="Shalya Parva" data-hindi="शल्य पर्व"
+                            data-sanskrit="शल्यपर्व">Shalya Parva</div>
+                        <div class="parva-chapters" data-english="64 Chapters" data-hindi="64 अध्याय"
+                            data-sanskrit="६४ अध्यायाः">64 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">10</div>
+                        <div class="parva-name" data-english="Sauptika Parva" data-hindi="सौप्तिक पर्व"
+                            data-sanskrit="सौप्तिकपर्व">Sauptika Parva</div>
+                        <div class="parva-chapters" data-english="18 Chapters" data-hindi="18 अध्याय"
+                            data-sanskrit="१८ अध्यायाः">18 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">11</div>
+                        <div class="parva-name" data-english="Stri Parva" data-hindi="स्त्री पर्व"
+                            data-sanskrit="स्त्रीपर्व">Stri Parva</div>
+                        <div class="parva-chapters" data-english="27 Chapters" data-hindi="27 अध्याय"
+                            data-sanskrit="२७ अध्यायाः">27 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">12</div>
+                        <div class="parva-name" data-english="Shanti Parva" data-hindi="शांति पर्व"
+                            data-sanskrit="शान्तिपर्व">Shanti Parva</div>
+                        <div class="parva-chapters" data-english="365 Chapters" data-hindi="365 अध्याय"
+                            data-sanskrit="३६५ अध्यायाः">365 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">13</div>
+                        <div class="parva-name" data-english="Anushasana Parva" data-hindi="अनुशासन पर्व"
+                            data-sanskrit="अनुशासनपर्व">Anushasana Parva</div>
+                        <div class="parva-chapters" data-english="154 Chapters" data-hindi="154 अध्याय"
+                            data-sanskrit="१५४ अध्यायाः">154 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">14</div>
+                        <div class="parva-name" data-english="Ashvamedhika Parva" data-hindi="अश्वमेधिक पर्व"
+                            data-sanskrit="अश्वमेधिकपर्व">Ashvamedhika Parva</div>
+                        <div class="parva-chapters" data-english="96 Chapters" data-hindi="96 अध्याय"
+                            data-sanskrit="९६ अध्यायाः">96 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">15</div>
+                        <div class="parva-name" data-english="Ashramavasika Parva" data-hindi="आश्रमवासिक पर्व"
+                            data-sanskrit="आश्रमवासिकपर्व">Ashramavasika Parva</div>
+                        <div class="parva-chapters" data-english="47 Chapters" data-hindi="47 अध्याय"
+                            data-sanskrit="४७ अध्यायाः">47 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">16</div>
+                        <div class="parva-name" data-english="Mausala Parva" data-hindi="मौसल पर्व"
+                            data-sanskrit="मौसलपर्व">Mausala Parva</div>
+                        <div class="parva-chapters" data-english="9 Chapters" data-hindi="9 अध्याय"
+                            data-sanskrit="९ अध्यायाः">9 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">17</div>
+                        <div class="parva-name" data-english="Mahaprasthanika Parva" data-hindi="महाप्रस्थानिक पर्व"
+                            data-sanskrit="महाप्रस्थानिकपर्व">Mahaprasthanika Parva</div>
+                        <div class="parva-chapters" data-english="3 Chapters" data-hindi="3 अध्याय"
+                            data-sanskrit="३ अध्यायाः">3 Chapters</div>
+                    </div>
+                    <div class="parva-card">
+                        <div class="parva-number">18</div>
+                        <div class="parva-name" data-english="Svargarohana Parva" data-hindi="स्वर्गारोहण पर्व"
+                            data-sanskrit="स्वर्गारोहणपर्व">Svargarohana Parva</div>
+                        <div class="parva-chapters" data-english="5 Chapters" data-hindi="5 अध्याय"
+                            data-sanskrit="५ अध्यायाः">5 Chapters</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-stats">
+                <div class="stat-card">
+                    <div class="stat-number">18</div>
+                    <div class="stat-label" data-english="Parvas (Books)" data-hindi="पर्व (पुस्तकें)"
+                        data-sanskrit="पर्वाणि (ग्रन्थाः)">Parvas (Books)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2,154</div>
+                    <div class="stat-label" data-english="Total Chapters" data-hindi="कुल अध्याय"
+                        data-sanskrit="कुल अध्यायाः">Total Chapters</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100,000+</div>
+                    <div class="stat-label" data-english="Verses (Shlokas)" data-hindi="श्लोक" data-sanskrit="श्लोकाः">
+                        Verses (Shlokas)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1.8M+</div>
+                    <div class="stat-label" data-english="Words" data-hindi="शब्द" data-sanskrit="शब्दाः">Words</div>
+                </div>
+            </div>
+
+            <div class="footer-quote">
+                <div class="quote-text" data-english="यद्यत्र नास्ति न तत् क्वचिदन्यत्र"
+                    data-hindi="यद्यत्र नास्ति न तत् क्वचिदन्यत्र" data-sanskrit="यद्यत्र नास्ति न तत् क्वचिदन्यत्र">
+                    यद्यत्र नास्ति न तत् क्वचिदन्यत्र</div>
+                <div class="quote-translation" data-english="What is not found here, is found nowhere else"
+                    data-hindi="जो यहाँ नहीं है, वह कहीं और नहीं है"
+                    data-sanskrit="यत् अत्र न अस्ति तत् क्वचित् अन्यत्र न अस्ति">What is not found here, is found
+                    nowhere else</div>
+                <div class="quote-source" data-english="- Mahabharata, Adi Parva" data-hindi="- महाभारत, आदि पर्व"
+                    data-sanskrit="- महाभारतम्, आदिपर्व">- Mahabharata, Adi Parva</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
